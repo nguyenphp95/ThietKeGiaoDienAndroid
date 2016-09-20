@@ -58,7 +58,7 @@ public final class R {
         public static final int TextView24=0x7f080032;
         public static final int TextView25=0x7f080033;
         public static final int action_settings=0x7f08003c;
-        public static final int btnLogin=0x7f080006;
+        public static final int btnLogin=0x7f080007;
         public static final int btnlab1=0x7f080034;
         public static final int btnlab2=0x7f080035;
         public static final int btnlab3=0x7f080036;
@@ -67,17 +67,17 @@ public final class R {
         public static final int btnlab6=0x7f080039;
         public static final int btnlab7=0x7f08003a;
         public static final int btnlab8=0x7f08003b;
-        public static final int button1=0x7f08000e;
+        public static final int button1=0x7f080001;
         public static final int button2=0x7f080010;
         public static final int button3=0x7f080011;
-        public static final int editText1=0x7f080003;
-        public static final int editText2=0x7f080005;
-        public static final int editText3=0x7f080009;
-        public static final int editText4=0x7f08000a;
-        public static final int editText5=0x7f08000b;
+        public static final int editText1=0x7f080004;
+        public static final int editText2=0x7f080006;
+        public static final int editText3=0x7f08000a;
+        public static final int editText4=0x7f08000b;
+        public static final int editText5=0x7f08000c;
         public static final int fileWebView=0x7f080000;
-        public static final int radioButton1=0x7f08000c;
-        public static final int radioButton2=0x7f08000d;
+        public static final int radioButton1=0x7f08000d;
+        public static final int radioButton2=0x7f08000e;
         public static final int tableRow1=0x7f080012;
         public static final int tableRow2=0x7f080015;
         public static final int tableRow3=0x7f080019;
@@ -87,11 +87,11 @@ public final class R {
         public static final int tableRow7=0x7f080029;
         public static final int tableRow8=0x7f08002d;
         public static final int tableRow9=0x7f080031;
-        public static final int textView1=0x7f080001;
-        public static final int textView2=0x7f080002;
-        public static final int textView3=0x7f080004;
-        public static final int txtPass=0x7f080008;
-        public static final int txtReg=0x7f080007;
+        public static final int textView1=0x7f080002;
+        public static final int textView2=0x7f080003;
+        public static final int textView3=0x7f080005;
+        public static final int txtPass=0x7f080009;
+        public static final int txtReg=0x7f080008;
         public static final int view1=0x7f08000f;
     }
     public static final class layout {
