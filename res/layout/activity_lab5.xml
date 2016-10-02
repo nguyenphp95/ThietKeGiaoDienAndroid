@@ -11,4 +11,10 @@
         android:text="Bài Tập Lab 5"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/listDanhSachh" />
+
 </LinearLayout>

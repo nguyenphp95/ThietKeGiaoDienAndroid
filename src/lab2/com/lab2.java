@@ -8,15 +8,19 @@ import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.view.View;
+import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 import manhinhdieukhien.com.R;
+import quantri.com.quantri;
 
-public class lab2 extends Activity{
+public class lab2 extends Activity implements OnClickListener{
 	//B1: Khai báo Button cần tương tác tới
 	Button btnLogin;
 	TextView txtReg,txtPass;
+	EditText edtuser,edtpass;
 	//Tạo Broadcast Receiver
 	BroadcastReceiver Receiver = new BroadcastReceiver() {
 		
@@ -37,28 +41,35 @@ public class lab2 extends Activity{
 	protected void onCreate(Bundle savedInstanceState) {		
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_lab2);
+		edtuser = (EditText) findViewById(R.id.edtuser);
+		edtpass = (EditText) findViewById(R.id.edtpass);
 		btnLogin = (Button) findViewById(R.id.btnLogin);
 		txtReg = (TextView) findViewById(R.id.txtReg);
 		txtPass = (TextView) findViewById(R.id.txtPass);
 		
-		txtPass.setOnClickListener(new View.OnClickListener() {
-			
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				Intent intent = new Intent(getApplicationContext(),quenmatkhau.class);
+		btnLogin.setOnClickListener(this);
+		txtReg.setOnClickListener(this);
+		txtPass.setOnClickListener(this);
+	}
+	@Override
+	public void onClick(View v) {
+		if (v==btnLogin) {
+			String user = edtuser.getText().toString();
+			String pass = edtpass.getText().toString();
+			if (user.equalsIgnoreCase("admin") && pass.equalsIgnoreCase("admin")) {
+				Intent intent = new Intent(getApplicationContext(),quantri.class);
 				startActivity(intent);				
 			}
-		});
-		txtReg.setOnClickListener(new View.OnClickListener(){
+		}
+		if (v==txtReg) {
+			Intent intent=new Intent(getApplicationContext(),dangky.class);
+			startActivity(intent);		
+		}
+		if (v==txtPass) {
+			Intent intent = new Intent(getApplicationContext(),quenmatkhau.class);
+			startActivity(intent);			
+		}
 		
-			@Override
-			public void onClick(View v) {
-				// TODO Auto-generated method stub
-				Intent intent=new Intent(getApplicationContext(),dangky.class);
-				startActivity(intent);				
-			}
-		});
 	}
 	@Override
 	protected void onResume() {
@@ -74,4 +85,5 @@ public class lab2 extends Activity{
 			unregisterReceiver(Receiver);
 		}
 	}
+	
 }

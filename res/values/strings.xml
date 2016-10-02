@@ -4,5 +4,11 @@
     <string name="app_name">Project_ThietKeGiaoDienAndroid</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string-array name="listDanhSachh">
+        <item >Món hàng 1</item>
+        <item >Món hàng 2</item>
+        <item >Món hàng 3</item>
+        <item >Món hàng 4</item>
+    </string-array>
 
 </resources>
