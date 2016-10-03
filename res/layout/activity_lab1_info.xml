@@ -90,7 +90,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginBottom="20dp"
                 android:layout_marginTop="5dp"
-                android:text="Giới Thiệu" />
+                android:text="Giới Thiệu Bản Thân" />
 
             <TextView
                 android:id="@+id/textView1"
