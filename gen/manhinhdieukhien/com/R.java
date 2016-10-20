@@ -29,21 +29,22 @@ public final class R {
         public static final int background=0x7f020001;
         public static final int background2=0x7f020002;
         public static final int bag=0x7f020003;
-        public static final int connect=0x7f020004;
-        public static final int dab=0x7f020005;
-        public static final int email=0x7f020006;
-        public static final int firefoxicon=0x7f020007;
-        public static final int galaxy=0x7f020008;
-        public static final int globalicon=0x7f020009;
-        public static final int graduate=0x7f02000a;
-        public static final int heart=0x7f02000b;
-        public static final int home=0x7f02000c;
-        public static final int ic_launcher=0x7f02000d;
-        public static final int iconemail=0x7f02000e;
-        public static final int juveicon=0x7f02000f;
-        public static final int login12=0x7f020010;
-        public static final int question=0x7f020011;
-        public static final int style=0x7f020012;
+        public static final int ballonbackground=0x7f020004;
+        public static final int connect=0x7f020005;
+        public static final int dab=0x7f020006;
+        public static final int email=0x7f020007;
+        public static final int firefoxicon=0x7f020008;
+        public static final int galaxy=0x7f020009;
+        public static final int globalicon=0x7f02000a;
+        public static final int graduate=0x7f02000b;
+        public static final int heart=0x7f02000c;
+        public static final int home=0x7f02000d;
+        public static final int ic_launcher=0x7f02000e;
+        public static final int iconemail=0x7f02000f;
+        public static final int juveicon=0x7f020010;
+        public static final int login12=0x7f020011;
+        public static final int question=0x7f020012;
+        public static final int style=0x7f020013;
     }
     public static final class id {
         public static final int TextView01=0x7f09001e;
@@ -71,19 +72,22 @@ public final class R {
         public static final int TextView23=0x7f090039;
         public static final int TextView24=0x7f09003d;
         public static final int TextView25=0x7f09003e;
-        public static final int action_settings=0x7f090048;
+        public static final int action_settings=0x7f090050;
         public static final int btnInfo=0x7f090001;
         public static final int btnLogin=0x7f090012;
-        public static final int btnlab1=0x7f090040;
-        public static final int btnlab2=0x7f090041;
-        public static final int btnlab3=0x7f090042;
-        public static final int btnlab4=0x7f090043;
-        public static final int btnlab5=0x7f090044;
-        public static final int btnlab6=0x7f090045;
-        public static final int btnlab7=0x7f090046;
-        public static final int btnlab8=0x7f090047;
+        public static final int btnlab1=0x7f090048;
+        public static final int btnlab2=0x7f090049;
+        public static final int btnlab3=0x7f09004a;
+        public static final int btnlab4=0x7f09004b;
+        public static final int btnlab5=0x7f09004c;
+        public static final int btnlab6=0x7f09004d;
+        public static final int btnlab7=0x7f09004e;
+        public static final int btnlab8=0x7f09004f;
+        public static final int button1=0x7f090045;
         public static final int button2=0x7f09001b;
         public static final int button3=0x7f09001c;
+        public static final int checkedTextView1=0x7f090046;
+        public static final int editText1=0x7f090044;
         public static final int editText3=0x7f090015;
         public static final int editText4=0x7f090016;
         public static final int editText5=0x7f090017;
@@ -97,8 +101,11 @@ public final class R {
         public static final int imageView5=0x7f090007;
         public static final int imageView6=0x7f090008;
         public static final int imageView7=0x7f090002;
+        public static final int left_buton=0x7f090041;
         public static final int radioButton1=0x7f090018;
         public static final int radioButton2=0x7f090019;
+        public static final int right_buton=0x7f090042;
+        public static final int seekBar1=0x7f090047;
         public static final int spinner1=0x7f09003f;
         public static final int tableRow1=0x7f09001d;
         public static final int tableRow2=0x7f090020;
@@ -116,8 +123,10 @@ public final class R {
         public static final int textView5=0x7f09000e;
         public static final int textView6=0x7f09000f;
         public static final int textView7=0x7f090009;
+        public static final int tv1=0x7f090043;
         public static final int txtPass=0x7f090014;
         public static final int txtReg=0x7f090013;
+        public static final int txtTen=0x7f090040;
         public static final int view1=0x7f09001a;
     }
     public static final class layout {
@@ -130,10 +139,14 @@ public final class R {
         public static final int activity_lab4=0x7f030006;
         public static final int activity_lab5=0x7f030007;
         public static final int activity_lab6=0x7f030008;
-        public static final int activity_lab7=0x7f030009;
-        public static final int activity_lab8=0x7f03000a;
-        public static final int activity_main=0x7f03000b;
-        public static final int activity_quantri=0x7f03000c;
+        public static final int activity_lab6_tabhost1=0x7f030009;
+        public static final int activity_lab6_tabhost2=0x7f03000a;
+        public static final int activity_lab7=0x7f03000b;
+        public static final int activity_lab8=0x7f03000c;
+        public static final int activity_lab8_leftmenu=0x7f03000d;
+        public static final int activity_lab8_rightmenu=0x7f03000e;
+        public static final int activity_main=0x7f03000f;
+        public static final int activity_quantri=0x7f030010;
     }
     public static final class menu {
         public static final int main=0x7f080000;
